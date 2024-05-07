@@ -1,0 +1,14 @@
+LeNet-5 CIFAR10 Classifier:
+This notebook implements the classic LeNet-5 convolutional network. 
+Please modify the code and train LeNet-5 on the CIFAR10 dataset for classification.
+
+LeNet-5 is commonly regarded as the pioneer of convolutional neural networks, consisting of a simple architecture (by modern standards). 
+In total, LeNet-5 consists of only 5 learnable layers. 
+3 out of these layers are convolutional layers (C1, C3, C5), which are connected by two average pooling layers (S2 & S4). 
+The penultimate layer is a fully connexted layer (F6), which is followed by the final output layer.
+
+**Please note that the original LeNet-5 was applied to MNIST-like grayscale images (1 color channel). CIFAR10 has 3 color-channels. 
+The goal of this assignment is to try various techniques about hyperparameter-tuning to improve the performance to 85% accuracy (at least). 
+ 
+1.	Please summarize the modification you did to improve the performance.
+2.	Report the test accuracy, and provide the experiment logging record for your best model.
